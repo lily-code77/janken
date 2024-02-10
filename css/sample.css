@@ -6,7 +6,7 @@ body{
 }
 header{
     background-color: #fff;
-    border-bottom: 1px solid #ccc;
+    border-bottom: thick double #09f3dc;
     text-align: center;
 }
 main{
@@ -14,7 +14,7 @@ main{
 }
 footer{
     background-color: #fff;
-    border-bottom:1px solid #ccc;
+    border-bottom: thick double #09f3dc;
     text-align: center;
 }
 p{
@@ -42,6 +42,23 @@ li:hover{
     background: #0066CC;
     color:#fff;
 }
-#judgment{
+#you{
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-weight: bold;
+    font-size: 35px;
     text-align: center;
+}
+#what{
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+}
+#result{
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
 }
