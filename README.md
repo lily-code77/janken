@@ -23,10 +23,7 @@
 
 
 ### おまけ
-キャプチャ画像を入れたい場合は以下のフォーマットを使用してみてください。
-その場合はキャプチャ画像用のフォルダを作成してその画像のパスを使用してみましょう。
-(srcフォルダなどをそれ用に作ってみてもいいかもしれないです)
-書き方)
-![alt文](画像URL)
-例)
-![top page capture](./src/capture1.png)
+![start](./src/start_janken.png)
+![win](./src/win_janken.png)
+![aiko](./src/aiko_janken.png)
+![lose](./src/lose_janken.png)
