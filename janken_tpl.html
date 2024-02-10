@@ -17,11 +17,11 @@
 
     <main>
         <ul>
-            <li id="gu_btn">グー</li>
-            <li id="cho_btn">チョキ</li>
-            <li id="par_btn">パー</li>
+            <li id="gu_btn"><img src="./img/gu.png" alt="グー"></li>
+            <li id="cho_btn"><img src="./img/choki.png" alt="チョキ"></li>
+            <li id="par_btn"><img src="./img/par.png" alt="パー"></li>
         </ul>
-        <div>コンピュータの出した手は？「<span id="pc_hands">なに？</span>」</div>
+        <div>コンピュータの出した手は？<span id="pc_hands">なに？</span></div>
         <div id="judgment">勝ち</div>
     </main>
 
@@ -32,16 +32,16 @@
             let num = Math.ceil(Math.random() * 3);
 
             if (num === 1) {
-                $("#pc_hands").html("グー");
-                $("#judgment").html("あいこ");
+                $("#pc_hands").html('<img src="./img/gu.png" alt="グー">');
+                $("#judgment").html('<img src="./img/aiko.png" alt="あいこ">');
             }
             else if (num === 2) {
-                $("#pc_hands").html("チョキ");
-                $("#judgment").html("勝ち");
+                $("#pc_hands").html('<img src="./img/choki.png" alt="チョキ">');
+                $("#judgment").html('<img src="./img/win.png" alt="勝ち">');
             }
             else {
-                $("#pc_hands").html("パー");
-                $("#judgment").html("負け");
+                $("#pc_hands").html('<img src="./img/par.png" alt="パー">');
+                $("#judgment").html('<img src="./img/lose.png" alt="負け">');
             }
         })
 
@@ -49,16 +49,16 @@
             let num = Math.ceil(Math.random() * 3);
 
             if (num === 1) {
-                $("#pc_hands").html("グー");
-                $("#judgment").html("負け");
+                $("#pc_hands").html('<img src="./img/gu.png" alt="グー">');
+                $("#judgment").html('<img src="./img/lose.png" alt="負け">');
             }
             else if (num === 2) {
-                $("#pc_hands").html("チョキ");
-                $("#judgment").html("あいこ");
+                $("#pc_hands").html('<img src="./img/choki.png" alt="チョキ">');
+                $("#judgment").html('<img src="./img/aiko.png" alt="あいこ">');
             }
             else {
-                $("#pc_hands").html("パー");
-                $("#judgment").html("勝ち");
+                $("#pc_hands").html('<img src="./img/par.png" alt="パー">');
+                $("#judgment").html('<img src="./img/win.png" alt="勝ち">');
             }
         })
 
@@ -66,16 +66,16 @@
             let num = Math.ceil(Math.random() * 3);
 
             if (num === 1) {
-                $("#pc_hands").html("グー");
-                $("#judgment").html("勝ち");
+                $("#pc_hands").html('<img src="./img/gu.png" alt="グー">');
+                $("#judgment").html('<img src="./img/win.png" alt="勝ち">');
             }
             else if (num === 2) {
-                $("#pc_hands").html("チョキ");
-                $("#judgment").html("負け");
+                $("#pc_hands").html('<img src="./img/choki.png" alt="チョキ">');
+                $("#judgment").html('<img src="./img/lose.png" alt="負け">');
             }
             else {
-                $("#pc_hands").html("パー");
-                $("#judgment").html("あいこ");
+                $("#pc_hands").html('<img src="./img/par.png" alt="パー">');
+                $("#judgment").html('<img src="./img/aiko.png" alt="あいこ">');
             }
         })
     </script>
