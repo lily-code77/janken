@@ -25,14 +25,15 @@ p{
 }
 ul{
     padding: 0;
-    border-top: 1px solid #000000;
-    display:table;  /* 定義 */
+    /* border-top: 1px solid #000000; */
+    display:table; /* 定義 */
     table-layout: fixed;
     width:100%;
+    text-align: center;
 }
 li{
     list-style-type:none;
-    border: 1px solid #666;
+    /* border: 1px solid #666; */
     background-color: #FFF;
     display:table-cell;  /* 定義 */
     cursor: pointer;
@@ -40,4 +41,7 @@ li{
 li:hover{
     background: #0066CC;
     color:#fff;
+}
+#judgment{
+    text-align: center;
 }
